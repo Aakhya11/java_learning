@@ -22,7 +22,8 @@ public class Main {
 
         f=c;
 
-        c=f;
+        c= (long)f;
+
 
     }
 }
