@@ -15,16 +15,16 @@ public class ConditionalExamples {
             // 2. SELECTION STATEMENT: switch
             int day = 3;
             switch (day) {
-                case 1:
+                case  1->
                     System.out.println("Monday");
-                    break;
-                case 2:
+
+                case 2 ->
                     System.out.println("Tuesday");
-                    break;
-                case 3:
+
+                case 3 ->
                     System.out.println("Wednesday");
-                    break;
-                default:
+
+                default ->
                     System.out.println("Another day");
             }
 
